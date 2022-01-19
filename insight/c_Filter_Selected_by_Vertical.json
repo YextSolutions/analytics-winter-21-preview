@@ -1,0 +1,33 @@
+{
+    "$id": "c_Filter_Selected_by_Vertical",
+    "$schema": "https://schema.yext.com/config/analytics/insight/v1",
+    "name": "Facet Filter Values Selected by Vertical",
+    "query": {
+        "metrics": [
+            "yext/ANSWERS_SEARCHES"
+        ],
+        "dimensions": [
+            "yext/ANSWERS_VERTICAL_RETURNED",
+            "yext/ANSWERS_FILTER_VALUE"
+        ],
+        "filters": [
+            {
+                "filter": "yext/ANSWERS_FILTER_SOURCE",
+                "in": [
+                    "UI"
+                ]
+            },
+            {
+                "filter": "yext/ANSWERS_FILTER_TYPE",
+                "in": [
+                    "FACET"
+                ]
+            }
+        ]
+    },
+    "display": {
+        "bar": {
+            "style": "PERCENT"
+        }
+    }
+}
