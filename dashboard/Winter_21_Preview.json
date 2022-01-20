@@ -1,10 +1,10 @@
 {
-    "$id": "c_Winter_21_Preview",
+    "$id": "winter21preview_Winter_21_Preview",
     "$schema": "https://schema.yext.com/config/analytics/dashboard/v1",
     "name": "Winter \u002721 Preview",
     "insights": [
         {
-            "insight": "c_Searches_by_Vertical_Returned",
+            "insight": "winter21preview_Searches_by_Vertical_Returned",
             "caption": "Searches by Vertical Returned shows the number of searches in which each vertical was returned.",
             "x": 0,
             "y": 0,
@@ -12,7 +12,7 @@
             "height": 2
         },
         {
-            "insight": "c_Clicks_by_Vertical_Returned",
+            "insight": "winter21preview_Clicks_by_Vertical_Returned",
             "caption": "Clicks by Vertical Returned shows the number of clicks on results in each vertical.",
             "x": 2,
             "y": 0,
@@ -20,7 +20,7 @@
             "height": 2
         },
         {
-            "insight": "c_CTR_by_Vertical_Returned",
+            "insight": "winter21preview_CTR_by_Vertical_Returned",
             "caption": "CTR by Vertical Returned shows the Click Through Rate of each vertical (searches with a click on each vertical divided by total searches returning that vertical).",
             "x": 4,
             "y": 0,
@@ -28,7 +28,7 @@
             "height": 2
         },
         {
-            "insight": "c_Searches_with_Direct_Answers",
+            "insight": "winter21preview_Searches_with_Direct_Answers",
             "caption": "Direct Answer Type allows you to dimension Answers metrics by the type of Direct Answer (Featured Snippet or Field) returned.",
             "x": 0,
             "y": 2,
@@ -36,7 +36,7 @@
             "height": 2
         },
         {
-            "insight": "c_Filter_Selected_by_Vertical",
+            "insight": "winter21preview_Filter_Selected_by_Vertical",
             "caption": "The values that Answers users selected in facets or static filters, out of 100% for each vertical.",
             "x": 0,
             "y": 4,
@@ -44,7 +44,7 @@
             "height": 2
         },
         {
-            "insight": "c_Filter_Values_Selected_by_Filter_Field",
+            "insight": "winter21preview_Filter_Values_Selected_by_Filter_Field",
             "caption": "The values that Answers users selected in facets or static filters, out of 100% for each filter field option.",
             "x": 3,
             "y": 4,
@@ -52,7 +52,7 @@
             "height": 2
         },
         {
-            "insight": "c_Searches_by_Filter_Source",
+            "insight": "winter21preview_Searches_by_Filter_Source",
             "caption": "Filter Source separates Algorithm filters (i.e., NLP filters) from User Interface filters (i.e., Facets or Static filters selected).",
             "x": 0,
             "y": 6,
@@ -60,7 +60,7 @@
             "height": 2
         },
         {
-            "insight": "c_CTR_by_Filter_Key",
+            "insight": "winter21preview_CTR_by_Filter_Key",
             "caption": "The Click Through Rate of Answers Searches, grouped by the filter applied.",
             "x": 2,
             "y": 6,
@@ -68,7 +68,7 @@
             "height": 2
         },
         {
-            "insight": "c_Core_Answers_Stats_by_User_Region",
+            "insight": "winter21preview_Core_Answers_Stats_by_User_Region",
             "caption": "Answers search and click volume, grouped by the region the user searched from.",
             "x": 0,
             "y": 8,
@@ -76,7 +76,7 @@
             "height": 2
         },
         {
-            "insight": "c_Sessions_by_User_Region",
+            "insight": "winter21preview_Sessions_by_User_Region",
             "caption": "The share of Answers sessions by the region the user searched from.",
             "x": 4,
             "y": 8,
@@ -84,7 +84,7 @@
             "height": 2
         },
         {
-            "insight": "c_Sessions_by_User_Browser",
+            "insight": "winter21preview_Sessions_by_User_Browser",
             "caption": "The share of Answers sessions by the user\u0027s browser.",
             "x": 0,
             "y": 10,
@@ -92,7 +92,7 @@
             "height": 2
         },
         {
-            "insight": "c_Core_Answers_Stats_by_User_Browser",
+            "insight": "winter21preview_Core_Answers_Stats_by_User_Browser",
             "caption": "Answers search and click volume, grouped by the user\u0027s browser.",
             "x": 2,
             "y": 10,
@@ -100,7 +100,7 @@
             "height": 2
         },
         {
-            "insight": "c_Core_Answers_Stats_by_Integration_Source",
+            "insight": "winter21preview_Core_Answers_Stats_by_Integration_Source",
             "caption": "Answers search and click volume, grouped by Integration Source (can be set for each Answers integration, defaults to \"STANDARD\").",
             "x": 0,
             "y": 12,
@@ -108,7 +108,7 @@
             "height": 2
         },
         {
-            "insight": "c_Sessions_by_Integration_Source",
+            "insight": "winter21preview_Sessions_by_Integration_Source",
             "caption": "The share of Answers session by Integration Source.",
             "x": 4,
             "y": 12,
@@ -116,7 +116,7 @@
             "height": 2
         },
         {
-            "insight": "c_Overall_Thumbs_Up__Down_Split_by_Experience",
+            "insight": "winter21preview_Overall_Thumbs_Up__Down_Split_by_Experience",
             "caption": "The split of Thumbs Up and Thumbs Down events by Answers experience.",
             "x": 0,
             "y": 14,
@@ -124,7 +124,7 @@
             "height": 2
         },
         {
-            "insight": "c_Answers_Results_with_Thumbs_Down",
+            "insight": "winter21preview_Answers_Results_with_Thumbs_Down",
             "caption": "A list of Thumbs Down events in Answers. This shows the table of searches and results that have received the most Thumbs Down events, which is explicit feedback of the relevance of the results from users.",
             "x": 2,
             "y": 14,
@@ -132,7 +132,7 @@
             "height": 2
         },
         {
-            "insight": "c_Thumbs_Up__Down_Split_by_Vertical",
+            "insight": "winter21preview_Thumbs_Up__Down_Split_by_Vertical",
             "caption": "The split of Thumbs Up and Thumbs Down events by vertical.",
             "x": 0,
             "y": 16,
@@ -140,7 +140,7 @@
             "height": 2
         },
         {
-            "insight": "c_Voice_Search_Usage",
+            "insight": "winter21preview_Voice_Search_Usage",
             "caption": "The usage of voice search across your Answers experiences.",
             "x": 0,
             "y": 18,
@@ -148,7 +148,7 @@
             "height": 1
         },
         {
-            "insight": "c_Voice_Searches_over_Time",
+            "insight": "winter21preview_Voice_Searches_over_Time",
             "caption": "The number of searches placed using voice search over time.",
             "x": 2,
             "y": 18,
@@ -156,7 +156,7 @@
             "height": 1
         },
         {
-            "insight": "c_Direct_Answers_with_Thumbs_Down",
+            "insight": "winter21preview_Direct_Answers_with_Thumbs_Down",
             "caption": "A list of Thumbs Down events in Answers. This shows the table of direct answers that have received the most Thumbs Down events, which is explicit feedback of the relevance of the results from users.",
             "x": 2,
             "y": 16,
@@ -164,7 +164,7 @@
             "height": 2
         },
         {
-            "insight": "c_Total_Voice_Searches",
+            "insight": "winter21preview_Total_Voice_Searches",
             "caption": "The total number of Answers searches placed using voice search.",
             "x": 0,
             "y": 19,
@@ -172,7 +172,7 @@
             "height": 1
         },
         {
-            "insight": "c_Most_Common_Voice_Search_Terms",
+            "insight": "winter21preview_Most_Common_Voice_Search_Terms",
             "caption": "The most common search terms placed using voice search in Answers.",
             "x": 2,
             "y": 19,
@@ -180,7 +180,7 @@
             "height": 1
         },
         {
-            "insight": "c_Overall_Deflection_Rate",
+            "insight": "winter21preview_Overall_Deflection_Rate",
             "caption": "The percentage of cases deflected in Answers (the percentage of cases started that were not submitted).",
             "x": 0,
             "y": 20,
@@ -188,7 +188,7 @@
             "height": 1
         },
         {
-            "insight": "c_Case_Deflections_over_Time",
+            "insight": "winter21preview_Case_Deflections_over_Time",
             "caption": "The number of case deflections and case submissions over time.",
             "x": 2,
             "y": 20,
@@ -196,7 +196,7 @@
             "height": 1
         },
         {
-            "insight": "c_Search_Terms_with_Case_Submission",
+            "insight": "winter21preview_Search_Terms_with_Case_Submission",
             "caption": "Answers Search Terms placed that were followed by a case submission. This indicates that these Answers searches potentially did not address the users question, which led them to submit a case.",
             "x": 2,
             "y": 20,
@@ -204,7 +204,7 @@
             "height": 1
         },
         {
-            "insight": "c_Total_Case_Deflections",
+            "insight": "winter21preview_Total_Case_Deflections",
             "caption": "The total number of cases deflected with Answers (the number of cases started - the number of cases submitted).",
             "x": 0,
             "y": 21,

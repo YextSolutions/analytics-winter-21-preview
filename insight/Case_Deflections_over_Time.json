@@ -1,15 +1,14 @@
 {
-    "$id": "c_Searches_with_Direct_Answers",
+    "$id": "winter21preview_Case_Deflections_over_Time",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-    "name": "Searches with Direct Answers",
-    "description": "Searches with Direct Answers",
+    "name": "Case Submissions and Deflections over Time",
     "query": {
         "metrics": [
-            "yext/ANSWERS_SEARCHES"
+            "yext/ANSWERS_CASE_SUBMITS",
+            "yext/ANSWERS_CASE_DEFLECTIONS"
         ],
         "dimensions": [
-            "yext/WEEKS",
-            "yext/ANSWERS_DIRECT_TYPE"
+            "yext/WEEKS"
         ],
         "filters": [
             {
@@ -19,8 +18,7 @@
         ]
     },
     "display": {
-        "bar": {
-            "style": "STACKED",
+        "line": {
             "showLabels": true
         }
     }

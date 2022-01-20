@@ -1,5 +1,5 @@
 {
-    "$id": "c_Filter_Values_Selected_by_Filter_Field",
+    "$id": "winter21preview_Filter_Values_Selected_by_Filter_Field",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "Facet Filter Values Selected by Filter Field",
     "query": {

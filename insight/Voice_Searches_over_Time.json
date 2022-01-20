@@ -1,13 +1,13 @@
 {
-    "$id": "c_Most_Common_Voice_Search_Terms",
+    "$id": "winter21preview_Voice_Searches_over_Time",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-    "name": "Most Common Voice Search Terms",
+    "name": "Voice Searches over Time",
     "query": {
         "metrics": [
             "yext/ANSWERS_SEARCHES"
         ],
         "dimensions": [
-            "yext/ANSWERS_SEARCH_TERM"
+            "yext/WEEKS"
         ],
         "filters": [
             {
@@ -15,17 +15,16 @@
                 "in": [
                     "true"
                 ]
+            },
+            {
+                "filter": "yext/date",
+                "in": "WEEKS_12"
             }
         ]
     },
     "display": {
-        "table": {
-            "sort": {
-                "column": {
-                    "metric": "yext/ANSWERS_SEARCHES"
-                },
-                "descending": true
-            }
+        "line": {
+            "showLabels": true
         }
     }
 }

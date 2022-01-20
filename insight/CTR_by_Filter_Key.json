@@ -1,5 +1,5 @@
 {
-    "$id": "c_CTR_by_Filter_Key",
+    "$id": "winter21preview_CTR_by_Filter_Key",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
     "name": "CTR by Filter Key",
     "query": {

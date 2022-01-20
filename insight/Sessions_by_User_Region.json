@@ -1,18 +1,17 @@
 {
-    "$id": "c_Clicks_by_Vertical_Returned",
+    "$id": "winter21preview_Sessions_by_User_Region",
     "$schema": "https://schema.yext.com/config/analytics/insight/v1",
-    "name": "Clicks by Vertical Returned",
+    "name": "Sessions by User Region",
     "query": {
         "metrics": [
-            "yext/ANSWERS_CLICKS"
+            "yext/ANSWERS_SESSIONS"
         ],
         "dimensions": [
-            "yext/ANSWERS_VERTICAL_RETURNED"
+            "yext/ANSWERS_USER_REGION"
         ]
     },
     "display": {
-        "bar": {
-            "style": "NORMAL",
+        "pie": {
             "showLabels": true
         }
     }
